@@ -19,17 +19,15 @@ public class Main {
 				System.out.print(i + " ");
 		}
 		System.out.println();
+
+		System.out.println("Sorted Array:");
+
+
 		
-
-		System.out.println("This is the Sorted Array :");
-		int[] sortedArray = InsertionSort.insertionSort(unsortedArray);
-
-		for (int i: unsortedArray) {
+		int[] sorted = InsertionSort.insertionSort(unsortedArray);
+		for (int i: sorted) {
 				System.out.print(i + " ");
 		}
-		
-		
-		
 	}
 
 }
