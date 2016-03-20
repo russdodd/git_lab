@@ -27,7 +27,10 @@ public class Main {
 		}
 		//TODO: sort the array and print out its contents
 		
-		
+		int[] sorted = InsertionSort.insertionSort(unsortedArray);
+		for (int i: sorted) {
+				System.out.print(i + " ");
+		}
 	}
 
 }
